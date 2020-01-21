@@ -1,2 +1,2 @@
-# -frontend-test-master-service
+# frontend-test-master-service
 a new repository for master service
