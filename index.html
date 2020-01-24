@@ -12,14 +12,14 @@
 	<!-- End favicon -->
 </head>
 <body>
-	<div class="container">
-		<header>
-			<nav>
-				<a href="#">
+	<header class="site-header">
+		<div class="header-container">
+			<a href="#" class="">
 				<img class="logo" src="https://servicems.eu/img/evropa-logo-15476312775.jpg" alt="servicems.ru">
-				</a>
-				<ul>
-					<li><a href="#">Оборудование</a>
+			</a>
+			<nav>
+				<ul class="nav-menu">
+					<li><a href="product-list.html">Оборудование</a>
 						<ul class="submenu">
 							<li><a href="#">Для диагностики стартеров и генераторов</a></li>
 							<li><a href="#">Для диагностики автокондиционеров</a></li>
@@ -58,23 +58,24 @@
 				</ul>
 				<!-- Search -->
 			</nav>
-			<!-- Slideshow container -->
-			<div class="slideshow-container">
-				<img src="https://servicems.ru/modules/homeslider/images/e49159932037a45bc31465259b8f97c211b9dbf6_1170X355.jpg" alt="slideshow">
-			</div>
-		</header>
-		<section class="popular-product-list">
+		</div>
+	</header>
+		<div class="slideshow-container">
+			<img class="slideshow" src="https://servicems.ru/modules/homeslider/images/e49159932037a45bc31465259b8f97c211b9dbf6_1170X355.jpg" alt="slideshow">
+		</div>
+		<section class="popular-product-section">
 			<h3 class="popular-title">Популярное</h3>
-
-			<div class="popular-product">
-				<a href="#"><img src="https://servicems.ru/761-large_default/stend-msg-ms002-com.jpg" alt="MS002 COM"></a>
-			</div>
-			<div class="popular-product">
-				<a href="#"><img src="https://servicems.ru/761-large_default/stend-msg-ms002-com.jpg" alt="MS002 COM"></a>
-			</div>
-			<div class="popular-product">
-				<a href="#"><img src="https://servicems.ru/761-large_default/stend-msg-ms002-com.jpg" alt="MS002 COM"></a>
-			</div>
+			<ul class="popular-product-list">
+				<li class="popular-product">
+					<a href="#"><img src="https://servicems.ru/761-large_default/stend-msg-ms002-com.jpg" alt="MS002 COM"></a>
+				</li>
+				<li class="popular-product">
+					<a href="#"><img src="https://servicems.ru/761-large_default/stend-msg-ms002-com.jpg" alt="MS002 COM"></a>
+				</li>
+				<li class="popular-product">
+					<a href="#"><img src="https://servicems.ru/761-large_default/stend-msg-ms002-com.jpg" alt="MS002 COM"></a>
+				</li>
+			</ul>
 		</section>
 		<section class="about-company">
 			<h3 class="company">О компании</h3>
@@ -108,6 +109,5 @@
 			<div class="help"></div>
 			<div class="contact"></div>
 		</footer>
-	</div>
 </body>
 </html>
