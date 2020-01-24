@@ -5,38 +5,16 @@
 	box-sizing: border-box;
 }
 
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+
 .header-container {
-	width: 100%;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-left: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-@media (min-width: 576px) {
-	.header-container {
-		max-width: 540px;
-	}	
-}
-
-@media (min-width: 768px) {
-	.header-container {
-		max-width: 720px;
-	}
-}
-
-@media (min-width: 960px) {
-	.header-container {
-		max-width: 960px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.header-container {
-		max-width: 1170px;
-	}
 }
 
 .logo-link {
@@ -82,48 +60,13 @@ li a:hover {
     background: #fff;
 }
 
-.slideshow-container {
- 	display: flex;
- 	justify-content: center; 
-}
-
 .slideshow {
-	width: 1720px;
+	width: 1170px;
     margin-top: 20px;
 }
 
 .popular-product-section {
 	margin-top: 60px;
-}
-
-.popular-container {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-@media (min-width: 576px) {
-	.popular-container {
-		max-width: 540px;
-	}	
-}
-
-@media (min-width: 768px) {
-	.popular-container {
-		max-width: 720px;
-	}
-}
-
-@media (min-width: 960px) {
-	.popular-container {
-		max-width: 960px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.popular-container {
-		max-width: 1170px;
-	}
 }
 
 .popular-product-list {
@@ -137,33 +80,7 @@ li a:hover {
 }
 
 .company-container {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto; 
-}
-
-@media (min-width: 576px) {
-	.company-container {
-		max-width: 540px;
-	}	
-}
-
-@media (min-width: 768px) {
-	.company-container {
-		max-width: 720px;
-	}
-}
-
-@media (min-width: 960px) {
-	.company-container {
-		max-width: 960px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.company-container {
-		max-width: 1170px;
-	}
+	display: flex;
 }
 
 .company {
@@ -175,36 +92,9 @@ li a:hover {
 }
 
 .blog-container {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto; 
 	display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-@media (min-width: 576px) {
-	.blog-container {
-		max-width: 540px;
-	}	
-}
-
-@media (min-width: 768px) {
-	.blog-container {
-		max-width: 720px;
-	}
-}
-
-@media (min-width: 960px) {
-	.blog-container {
-		max-width: 960px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.blog-container {
-		max-width: 1170px;
-	}
 }
 
 .blog-title {
