@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
 
 * {
-	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
 }
 
-.container {
-	max-width: 1170px;
-	margin: 0 auto;
-	position: relative;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .header-container {
+	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.container {
+	max-width: 1420px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .logo-link {
@@ -42,27 +46,32 @@ ul {
 	display: block;
 }
 
-li a {
+.section-title {
+	font-size: 20px;
+}
+
+.nav-menu li a {
   display: inline-block;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
+.nav-menu li a:hover {
   color: red;
 }
 
 .submenu {
 	display: none;
-    list-style: none;
-    position: absolute;
-    background: #fff;
+	list-style: none;
+	position: absolute;
+	background: #fff;
+	z-index: 1;
 }
 
 .slideshow {
-	width: 1170px;
-    margin-top: 20px;
+	width: 100%;
+	margin-top: 20px;
 }
 
 .popular-product-section {
@@ -75,38 +84,46 @@ li a:hover {
 	flex-wrap: wrap;
 }
 
-.popular-title {
-	font-size: 20px;
-}
-
 .company-container {
 	display: flex;
+	align-items: center;
 }
 
-.company {
-	font-size: 20px;
+.our-company {
+	width: 60%;
+	object-fit: cover;
 }
 
 .text {
-	font-size: 10px;
-}
-
-.blog-container {
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.blog-title {
-	font-size: 20px;
+	width: 40%;
+	font-size: 14px;
+	margin-right: 40px;
+	line-height: normal;
 }
 
 .blog-img {
-	width: 230px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.blog-posts {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
 }
 
 .blog-post {
-	width: 230px;
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 25px;
+}
+
+.blog-post p {
+	font-size: 13px;
+}
+
+.blog-post__link {
+	display: block;
 }
 
 a {
@@ -116,8 +133,4 @@ a {
 
 h4 {
 	font-size: 12px;
-}
-
-p {
-	font-size: 8px;
 }
